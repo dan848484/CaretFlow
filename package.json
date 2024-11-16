@@ -1,5 +1,6 @@
 {
   "name": "caretflow",
+  "version": "1.0.0",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -17,6 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.14",
     "@remix-run/dev": "^2.14.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
