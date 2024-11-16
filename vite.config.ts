@@ -1,6 +1,6 @@
 import { crx } from "@crxjs/vite-plugin";
 import { vitePlugin as remix } from "@remix-run/dev";
-import { manifest } from "manifest";
+import { manifest } from "./manifest";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
