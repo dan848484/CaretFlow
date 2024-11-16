@@ -23,6 +23,11 @@ export default defineConfig({
       },
     }),
     tsconfigPaths(),
-    crx({ manifest }),
+    crx({
+      manifest,
+      contentScripts: {
+        preambleCode: false,
+      },
+    }),
   ],
 });
