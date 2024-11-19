@@ -3,6 +3,7 @@ import { vitePlugin as remix } from "@remix-run/dev";
 import { manifest } from "./manifest";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
+import react from "@vitejs/plugin-react";
 
 declare module "@remix-run/node" {
   interface Future {
@@ -26,7 +27,7 @@ export default defineConfig({
     crx({
       manifest,
       contentScripts: {
-        preambleCode: false,
+        // preambleCode: true,
       },
     }),
   ],
